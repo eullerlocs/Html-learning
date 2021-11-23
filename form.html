@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button><a href="index.html">Go back</a></button>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <label for="campo1">Nome</label>
+            <input type="text" name="nome" id="campo1">
+
+            <label for="campo2">Interesses de estudos</label>
+            <select name="interesses" id="campo2">
+                <option value="1">Vendas</option>
+                <option value="2">Marketing</option>
+                <option value="3">Gestao</option>
+            </select>
+
+            <fieldset class="fieldset">
+                <legend>Interesses de estudos</legend>
+                <label for="campo3.1">Diurno</label>
+                <input type="radio" name="Horario" value="2" id="campo3.1">
+
+                <label for="campo3.2">Matutino</label>
+                <input type="radio" name="Horario" value="1" id="campo3.2">
+
+                <label for="campo3.3">Noturno</label>
+                <input type="radio" name="Horario" value="2" id="campo3.3">
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend>Forma</legend>
+                <label>Online</label>
+                <input type="checkbox" name="forma" value="1">
+
+                <label>Presencial</label>
+                <input type="checkbox" name="forma" value="2">
+            </fieldset>
+
+
+
+
+
+
+            <input type="submit" value="Enviar o formulário">
+
+        </form>
+    </main>
+</body>
+
+</html>

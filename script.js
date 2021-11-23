@@ -1,1 +1,3 @@
-//alert("Salve familia!");
+function something(){
+    w3RemoveClass
+}
